@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.itim-regular {
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background-color: rgb(60, 60, 60);
+    color: #d7d7d7;
+    font-family: "itim";
+}
+
+header {
+    padding: 16px 0;
+    background-color: #181818;
+    color: #d7d7d7;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #d7d7d7;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+#sinopse .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#boss .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlight {
+    font-size: 1.2em; 
+    text-align: center; 
+    display: block; 
+    margin-top: 8px;
+}
+
+.textlight {
+font-size: 0.8em;
+margin-top: 8px;
+display: block;
+}
+
+.exclusive-ps img {
+    width: 100px; 
+    height: 60px; 
+    float: right;
+}
+
+#sinopse .container {
+    align-items: flex-start;
+}
+
+#sinopse h2 {
+    text-align: center;
+}
+
+#sinopse p {
+    font-size: 24px;
+}
+
+section {
+    padding: 32px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+.game-front {
+    margin-right: 32px;
+    height: 600px;
+}
+
+.boss-front {
+    margin-bottom: 48px;
+    height: 700px;
+    width: 500px;
+}
+
+#boss p,
+#boss h3,
+#boss h2 {
+        text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+form input,
+form textarea,
+form button {
+    font-family: "itim";
+    width: 100%; 
+    padding: 8px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+form button {
+    background-color: #181818; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+form button:hover {
+    background-color: #555555; 
+}
